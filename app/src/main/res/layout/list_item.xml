@@ -15,7 +15,8 @@
         android:layout_marginTop="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginBottom="10dp"
-        android:scaleType="fitCenter"/>
+        android:scaleType="fitCenter"
+        fresco:placeholderImage="@mipmap/news_placeholder"/>
 
     <TextView
         android:id="@+id/rp_tv_title"
@@ -24,7 +25,7 @@
         android:paddingBottom="2dip"
         android:paddingTop="6dip"
         android:textColor="@color/colorPrimaryDark"
-        android:textSize="16sp"
+        android:textSize="30sp"
         android:textStyle="bold" />
 
     <TextView
